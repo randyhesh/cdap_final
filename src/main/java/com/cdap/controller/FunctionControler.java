@@ -12,9 +12,8 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class FunctionControler {
 
-    @RequestMapping(value="/mainTemplate.htm", method= RequestMethod.POST)
-    public @ResponseBody
-    String helloAjaxTest() {
+   /* @RequestMapping(value="/hello", method= RequestMethod.POST)
+    public @ResponseBody String helloAjaxTest() {
         return "menu";
-    }
+    }*/
 }
