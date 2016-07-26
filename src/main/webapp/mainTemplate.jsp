@@ -72,7 +72,7 @@
 
         <nav class="navbar navbar-custom">
             <ul class="nav navbar-nav">
-                <li class="nav-item">
+                <li class="nav-item" style="line-height: 68px">
                     <button class="button-menu-mobile open-left waves-light waves-effect">
                         <i class="zmdi zmdi-menu"></i>
                     </button>
@@ -80,7 +80,7 @@
                 <li class="nav-item hidden-mobile">
                     <form role="search" class="app-search">
                         <input type="text" placeholder="Search..." class="form-control">
-                        <a href="#"><i class="fa fa-search"></i></a>
+                        <a href="#" style="top: 9px"><i class="fa fa-search"></i></a>
                     </form>
                 </li>
             </ul>
