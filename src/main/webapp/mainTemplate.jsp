@@ -11,8 +11,6 @@
 
 <html>
 
-<!-- Mirrored from coderthemes.com/uplon_1.1/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 20 Jul 2016 11:31:30 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
     <meta>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -167,45 +165,13 @@
         <div class="content">
             <div class="container">
 
-                <div class="row" id="device_list">
+                <span id="main_content">
 
-                </div>
-                <!-- end row -->
-
-
-                <div class="row">
-                    <div class="col-xs-12 col-lg-12 col-xl-8">
-                        <div class="card-box">
-
-                            <h4 class="header-title m-t-0 m-b-20">Sales Statistics</h4>
-
-                            <div class="text-xs-center">
-                                <ul class="list-inline chart-detail-list m-b-0">
-                                    <li class="list-inline-item">
-                                        <h6 style="color: #3db9dc;"><i class="zmdi zmdi-circle-o m-r-5"></i>Series A</h6>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <h6 style="color: #1bb99a;"><i class="zmdi zmdi-triangle-up m-r-5"></i>Series B</h6>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <h6 style="color: #818a91;"><i class="zmdi zmdi-square-o m-r-5"></i>Series C</h6>
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div id="morris-bar-stacked" style="height: 320px;"></div>
-
-                        </div>
-                    </div><!-- end col-->
-                </div>
-                <!-- end row -->
+                </span>
 
             </div> <!-- container -->
 
         </div> <!-- content -->
-
-
-
     </div>
     <!-- End content-page -->
 
@@ -214,124 +180,8 @@
     <!-- End Right content here -->
     <!-- ============================================================== -->
 
-
-    <!-- Right Sidebar -->
-    <div class="side-bar right-bar">
-        <div class="nicescroll">
-            <ul class="nav nav-tabs text-xs-center">
-                <li class="nav-item">
-                    <a href="#home-2"  class="nav-link active" data-toggle="tab" aria-expanded="false">
-                        Activity
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="#messages-2" class="nav-link" data-toggle="tab" aria-expanded="true">
-                        Settings
-                    </a>
-                </li>
-            </ul>
-
-            <div class="tab-content">
-                <div class="tab-pane fade in active" id="home-2">
-                    <div class="timeline-2">
-                        <div class="time-item">
-                            <div class="item-info">
-                                <small class="text-muted">5 minutes ago</small>
-                                <p><strong><a href="#" class="text-info">John Doe</a></strong> Uploaded a photo <strong>"DSC000586.jpg"</strong></p>
-                            </div>
-                        </div>
-
-                        <div class="time-item">
-                            <div class="item-info">
-                                <small class="text-muted">30 minutes ago</small>
-                                <p><a href="#" class="text-info">Lorem</a> commented your post.</p>
-                                <p><em>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam laoreet tellus ut tincidunt euismod. "</em></p>
-                            </div>
-                        </div>
-
-                        <div class="time-item">
-                            <div class="item-info">
-                                <small class="text-muted">59 minutes ago</small>
-                                <p><a href="#" class="text-info">Jessi</a> attended a meeting with<a href="#" class="text-success">John Doe</a>.</p>
-                                <p><em>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam laoreet tellus ut tincidunt euismod. "</em></p>
-                            </div>
-                        </div>
-
-                        <div class="time-item">
-                            <div class="item-info">
-                                <small class="text-muted">1 hour ago</small>
-                                <p><strong><a href="#" class="text-info">John Doe</a></strong>Uploaded 2 new photos</p>
-                            </div>
-                        </div>
-
-                        <div class="time-item">
-                            <div class="item-info">
-                                <small class="text-muted">3 hours ago</small>
-                                <p><a href="#" class="text-info">Lorem</a> commented your post.</p>
-                                <p><em>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam laoreet tellus ut tincidunt euismod. "</em></p>
-                            </div>
-                        </div>
-
-                        <div class="time-item">
-                            <div class="item-info">
-                                <small class="text-muted">5 hours ago</small>
-                                <p><a href="#" class="text-info">Jessi</a> attended a meeting with<a href="#" class="text-success">John Doe</a>.</p>
-                                <p><em>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam laoreet tellus ut tincidunt euismod. "</em></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="tab-pane fade" id="messages-2">
-
-                    <div class="row m-t-20">
-                        <div class="col-xs-8">
-                            <h5 class="m-0">Notifications</h5>
-                            <p class="text-muted m-b-0"><small>Do you need them?</small></p>
-                        </div>
-                        <div class="col-xs-4 text-right">
-                            <input type="checkbox" checked data-plugin="switchery" data-color="#64b0f2" data-size="small"/>
-                        </div>
-                    </div>
-
-                    <div class="row m-t-20">
-                        <div class="col-xs-8">
-                            <h5 class="m-0">API Access</h5>
-                            <p class="m-b-0 text-muted"><small>Enable/Disable access</small></p>
-                        </div>
-                        <div class="col-xs-4 text-right">
-                            <input type="checkbox" checked data-plugin="switchery" data-color="#64b0f2" data-size="small"/>
-                        </div>
-                    </div>
-
-                    <div class="row m-t-20">
-                        <div class="col-xs-8">
-                            <h5 class="m-0">Auto Updates</h5>
-                            <p class="m-b-0 text-muted"><small>Keep up to date</small></p>
-                        </div>
-                        <div class="col-xs-4 text-right">
-                            <input type="checkbox" checked data-plugin="switchery" data-color="#64b0f2" data-size="small"/>
-                        </div>
-                    </div>
-
-                    <div class="row m-t-20">
-                        <div class="col-xs-8">
-                            <h5 class="m-0">Online Status</h5>
-                            <p class="m-b-0 text-muted"><small>Show your status to all</small></p>
-                        </div>
-                        <div class="col-xs-4 text-right">
-                            <input type="checkbox" checked data-plugin="switchery" data-color="#64b0f2" data-size="small"/>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div> <!-- end nicescroll -->
-    </div>
-    <!-- /Right-bar -->
-
-    <footer class="footer text-right">
-        2016 © IPS.
+    <footer class="footer">
+        <center>2016 © IPS.</center>
     </footer>
 
 
@@ -387,7 +237,7 @@
             type : "POST",
             url : "/getNetworkInterfaces",
             success : function(data) {
-                $("#device_list").html(data);
+                $("#main_content").html(data);
             },
             error : function(e) {
                 console.log("ERROR: ", e);
@@ -398,6 +248,5 @@
         });
 
     });
-
 
 </script>
