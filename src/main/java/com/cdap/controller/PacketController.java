@@ -13,9 +13,12 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class PacketController {
 
     @RequestMapping(value = "/capturePackets", method = RequestMethod.POST)
-    private String capturePackets(@RequestParam("device") String deviceValue, Model model) {
+    private String capturePackets(@RequestParam("device") String deviceValue, Model modal) {
 
-        model.addAttribute("selectedDevice", deviceValue);
+
+        modal.addAttribute("selectedDevice",deviceValue);
+
         return "networkTraffic";
     }
+
 }

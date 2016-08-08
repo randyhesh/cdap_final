@@ -25,9 +25,12 @@
     <c:forEach items="${devices}" var="device">
         <div class="col-xs-12 col-md-6 col-lg-6 col-xl-3">
             <div class="card-box tilebox-one">
-                <h5 title="Device Name">${device.name}</h5></i>
+                <a style="cursor:pointer" onclick="getTraffic('${device}')"><h5 title="Device Name">${device.name}</h5>
+                </a>
                 <h6 class="text-muted text-uppercase m-b-20" title="Device Description">${device.description}</h6>
-                Datalink : <h6 class="m-b-20"><span data-plugin="counterup" title="Datalink">${device.datalink_name} - ${device.datalink_description}</span></h6>
+                Datalink : <h6 class="m-b-20"><span data-plugin="counterup"
+                                                    title="Datalink">${device.datalink_name} - ${device.datalink_description}</span>
+            </h6>
                 <span class="label label-pink pull-right" style="cursor:pointer" onclick="getTraffic('${device}')">Proceed</span>
             </div>
         </div>
